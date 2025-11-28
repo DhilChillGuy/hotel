@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <title>Dashboard Admin Resepsionis Hotel</title>
+</head>
+<link rel="stylesheet" href="1dashboard.css">
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <div class="logo-icon">🏨</div>
+            <span>HotelGram</span>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="#" class="active">🏠 Home</a></li>
+        </ul>
+        <div class="user-section">
+            <input type="text" class="search-box" placeholder="Cari...">
+            <button class="logout-btn">Logout</button>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Welcome Section -->
+        <div class="welcome-section">
+            <h1>Selamat Datang, Admin! 👋</h1>
+            <p>Kelola hotel Anda dengan mudah dan efisien</p>
+        </div>
+
+        <!-- Statistics Cards -->
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-info">
+                    <h3>Total Kamar</h3>
+                    <div class="number">120</div>
+                </div>
+                <div class="stat-icon blue">🛏️</div>
+            </div>
+
+            <div class="stat-card">
+                <div class="stat-info">
+                    <h3>Kamar Terisi</h3>
+                    <div class="number">85</div>
+                </div>
+                <div class="stat-icon green">✅</div>
+            </div>
+
+            <div class="stat-card">
+                <div class="stat-info">
+                    <h3>Check-in Hari Ini</h3>
+                    <div class="number">12</div>
+                </div>
+                <div class="stat-icon yellow">⏰</div>
+            </div>
+
+            <div class="stat-card">
+                <div class="stat-info">
+                    <h3>Pending</h3>
+                    <div class="number">5</div>
+                </div>
+                <div class="stat-icon red">⚠️</div>
+            </div>
+        </div>
+
+        <!-- Recent Bookings Table -->
+        <div class="table-section">
+            <div class="table-header">
+                <h2>Reservasi Terbaru</h2>
+                <a href="#" class="view-all-btn">Lihat Semua →</a>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nama Tamu</th>
+                        <th>Kamar</th>
+                        <th>Check-in</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>#001</td>
+                        <td>Budi Santoso</td>
+                        <td>201</td>
+                        <td>15 Jan 2024</td>
+                        <td><span class="status-badge status-confirmed">Confirmed</span></td>
+                    </tr>
+                    <tr>
+                        <td>#002</td>
+                        <td>Siti Rahma</td>
+                        <td>305</td>
+                        <td>16 Jan 2024</td>
+                        <td><span class="status-badge status-pending">Pending</span></td>
+                    </tr>
+                    <tr>
+                        <td>#003</td>
+                        <td>Ahmad Fauzi</td>
+                        <td>102</td>
+                        <td>15 Jan 2024</td>
+                        <td><span class="status-badge status-checkedin">Checked-in</span></td>
+                    </tr>
+                    <tr>
+                        <td>#004</td>
+                        <td>Dewi Lestari</td>
+                        <td>408</td>
+                        <td>17 Jan 2024</td>
+                        <td><span class="status-badge status-confirmed">Confirmed</span></td>
+                    </tr>
+                    <tr>
+                        <td>#005</td>
+                        <td>Riko Pratama</td>
+                        <td>215</td>
+                        <td>15 Jan 2024</td>
+                        <td><span class="status-badge status-pending">Pending</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 HotelGram. All rights reserved. | Sistem Manajemen Hotel</p>
+    </footer>
+</body>
+</html>
